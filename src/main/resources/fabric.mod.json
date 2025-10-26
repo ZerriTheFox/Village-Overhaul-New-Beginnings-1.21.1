@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.zerrithefox.vonb.VillageOverhaulNewBeginnings"
+          "net.zerrithefox.vonb.Vonb"
 		],
 		"fabric-datagen": [
-			"net.zerrithefox.vonb.VillageOverhaulNewBeginningsDataGenerator"
+          "net.zerrithefox.vonb.VonbDataGenerator"
 		],
         "client":[
-          "net.zerrithefox.vonb.VillageOverhaulNewBeginningsClient"
+          "net.zerrithefox.vonb.VonbClient"
         ]
 	},
 	"mixins": [
