@@ -1,5 +1,9 @@
 {
-  "item.vonb.village_heart": "Village Seed",
+  "item.vonb.village_seed": "Village Seed",
+  "item.vonb.wheel": "Wheel",
 
-  "block.vonb.village_heart_block": "Village Heart"
+  "block.vonb.village_heart_block": "Village Heart",
+
+  "itemgroup.vonb.village_overhaul_items": "Village Overhaul Items",
+  "itemgroup.bonb.village_overhaul_blocks": "Village Overhaul Blocks"
 }

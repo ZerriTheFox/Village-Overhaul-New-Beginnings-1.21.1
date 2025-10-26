@@ -10,7 +10,8 @@ import net.zerrithefox.vonb.Vonb;
 
 public class ModItems {
 
-    public static final Item VILLAGE_HEART = registerItem("village_heart", new Item(new Item.Settings()));
+    public static final Item VILLAGE_SEED = registerItem("village_seed", new Item(new Item.Settings()));
+    public static final Item WHEEL = registerItem("wheel", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Vonb.MOD_ID, name), item);
@@ -20,7 +21,10 @@ public class ModItems {
         Vonb.LOGGER.info("Registering Mod Items for " + Vonb.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
-            entries.add(VILLAGE_HEART);
+            entries.add(VILLAGE_SEED);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(WHEEL);
         });
     }
 }

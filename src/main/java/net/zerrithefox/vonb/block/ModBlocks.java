@@ -11,10 +11,11 @@ import net.minecraft.util.Identifier;
 import net.zerrithefox.vonb.Vonb;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
+import net.zerrithefox.vonb.items.ModItemGroups;
 
 public class ModBlocks {
 
-    public static final Block VILLAGE_HEART_Block = registerBlock("village_heart_block",
+    public static final Block VILLAGE_HEART_BLOCK = registerBlock("village_heart_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.CHERRY_WOOD)));
 
@@ -32,7 +33,7 @@ public class ModBlocks {
         Vonb.LOGGER.info("Registering Mod Block for " + Vonb.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
-            entries.add(ModBlocks.VILLAGE_HEART_Block);
+            entries.add(ModBlocks.VILLAGE_HEART_BLOCK);
         });
     }
 
