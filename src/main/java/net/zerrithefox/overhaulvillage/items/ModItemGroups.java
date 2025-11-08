@@ -12,7 +12,7 @@ import net.zerrithefox.overhaulvillage.block.ModBlocks;
 
 public class ModItemGroups {
 
-    public static final ItemGroup VONB = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup Village = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(OverhaulVillage.MOD_ID, "village_overhaul_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.VILLAGE_SEED))
                     .displayName(Text.translatable("itemgroup.vonb.village_overhaul_items"))
