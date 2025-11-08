@@ -5,5 +5,7 @@
   "block.vonb.village_heart_block": "Village Heart",
 
   "itemgroup.vonb.village_overhaul_items": "Village Overhaul Items",
-  "itemgroup.bonb.village_overhaul_blocks": "Village Overhaul Blocks"
+  "itemgroup.vonb.village_overhaul_blocks": "Village Overhaul Blocks",
+
+  "tooltip.vonb.village_seed": "Plant to start a new village."
 }

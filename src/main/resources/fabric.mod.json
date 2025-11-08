@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "village-overhaul-new-beginnings",
+	"id": "overhaul-village",
 	"version": "${version}",
-	"name": "Village Overhaul: New Beginnings",
+	"name": "overhual-village",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/ZerriTheFox/Village-Overhaul-New-Beginnings-1.21.1"
 	},
 	"license": "MIT",
-	"icon": "assets/Vonb/icon.png",
+	"icon": "assets/overhaul-village/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.zerrithefox.vonb.Vonb"
+          "net.zerrithefox.overhaulvillage.OverhaulVillage"
 		],
 		"fabric-datagen": [
-          "net.zerrithefox.vonb.VonbDataGenerator"
+          "net.zerrithefox.overhaulvillage.OverhaulVillageDataGenerator"
 		],
         "client":[
-          "net.zerrithefox.vonb.VonbClient"
+          "net.zerrithefox.overhaulvillage.OverhaulVillageClient"
         ]
 	},
 	"mixins": [
-      "vonb.mixins.json"
+      "overhaulvillage.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",

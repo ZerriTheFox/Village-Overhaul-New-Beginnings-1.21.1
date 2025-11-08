@@ -1,4 +1,4 @@
-package net.zerrithefox.vonb.mixin;
+package net.zerrithefox.overhaulvillage.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
